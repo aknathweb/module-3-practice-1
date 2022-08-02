@@ -1,3 +1,14 @@
-.special-card-position {
-    bottom: 3.5rem;
+.animation {
+
+    transition: all 0.3s ease;
+    transform-origin: bottom;
+}
+
+.animation:hover {
+    /* transform: scale(1.2); */
+    background-color: rgb(81, 121, 191);
+    padding: 2%;
+    transform-origin: bottom;
+    transform: scale(1.1);
+    color: white !important;
 }
